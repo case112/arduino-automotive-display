@@ -1,7 +1,7 @@
 # How to use Arduino in automotive setting with display
 
 ## Power supply to safely power an Arduino from 12V lead acid battery
-![Schematic](power-supply.png | width=400)
+![Schematic](power-supply.png | width=400px)
 
 The purpose of the parts in the power supply:
 
