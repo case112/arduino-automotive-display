@@ -78,6 +78,9 @@ void setup()
 {                
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  
   display.clearDisplay();
+  display.fillScreen(WHITE);
+  display.display();
+  delay(2000);
   display.drawBitmap(0, -15,  SpeedFight, 128, 64, BLACK, WHITE);
   display.display();
   delay(1000);
