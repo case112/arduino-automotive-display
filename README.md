@@ -14,5 +14,11 @@ The purpose of the parts in the power supply:
 The fuse, diode and a large capacitor are necessary to keep the electrical noise to the minimum which can crash the running software and even damage the AVR chip.
 
 
+## Measuring temperature from a generic thermistor type 2 pin coolant sensor
+
+- Arduino Ground to black/white ground wire
+- analog pin to (1k to 10k resistor) to sensor +volt output
+
 ## Links
-- Some links [Link name](https://www./ "Link")
+- Sensor info [GM temps sensor writeup](https://forum.arduino.cc/index.php?topic=426410.0 "Link")
+https://hackaday.io/project/168272-motorcycle-dashboard
