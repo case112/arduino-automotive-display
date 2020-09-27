@@ -1,7 +1,7 @@
 # How to use Arduino in automotive setting with display
 
 ## Power supply to safely power an Arduino from 12V lead acid battery
-<img src="power-supply.png" width=50%>
+<img src="img/power-supply.png" width=50%>
 
 The purpose of the parts in the power supply:
 
@@ -16,8 +16,12 @@ The fuse, diode and a large capacitor are necessary to keep the electrical noise
 
 ## Measuring temperature from a generic thermistor type 2 pin coolant sensor
 
-- Arduino Ground to black/white ground wire
-- analog pin to (1k to 10k resistor) to sensor +volt output
+<img src="img/generic-sensor.jpg" width=50%>
+
+Connecting a generic thermistor type automotive sensor to Arduino
+<img src="img/thermistor-schema.png" width=50%>
+
+## Measuring voltage from a 12V battery
 
 ## Links
 - Sensor info [GM temps sensor writeup](https://forum.arduino.cc/index.php?topic=426410.0 "Link")
