@@ -18,8 +18,10 @@ The fuse, diode and a large capacitor are necessary to keep the electrical noise
 
 <img src="img/generic-sensor.jpg" width=50%>
 
-Connecting a generic thermistor type automotive sensor to Arduino
+Connection to Arduino
 <img src="img/thermistor-schema.png" width=50%>
+
+In theory you should be able to connect different sensors with this application. Only thing to change would be the resistor values to your match your sensor. 
 
 ## Measuring voltage from a 12V battery
 
